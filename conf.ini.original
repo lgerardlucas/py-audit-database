@@ -1,0 +1,50 @@
+#- Este arquivo é referente a configuração de acesso aos bancos
+#online e host.
+#- É preciso renomer este arquivo para de "conf.ini.original para conf.ini
+#- Depois preencha os campos an ordem que segue
+
+# Nome da empresa que monitora e assunto do e-mail
+[COMPANY]
+NAME=
+COPYRIGHT=
+HOME=
+
+# Nome da empresa a ser monitorada para envio do email
+# Depois de configurada não pode ser alterada
+[COMPANY_AUDITIT]
+NAME=
+
+# E-MAIL - Config para envio do e-mail
+[EMAIL]
+FROM=
+TO=
+CC=
+PASSWD=
+SMTP=
+PORT=
+
+# CLOUD - Config para acessso ao banco em cloud 
+[ONLINE_SERVER]
+IP=
+DB=
+PORT=
+PASSWD=
+USER=
+
+# HOST - Config para acesso ao banco host de produção
+[PRODUCT_SERVER]
+IP=
+DB=
+PORT=
+PASSWD=
+USER=
+ID=
+
+# HOST - Config para acesso ao banco host de contingência - Ainda náo implementado
+[PRODUCT_CONTINGENCY]
+IP=
+DB=
+PORT=
+PASSWD=
+ID=
+
